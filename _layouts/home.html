@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="page-heading">Restaurants</h1>
+  {%- if strapi.collections.restaurants.size > 0 -%}
+  <ul>
+    {%- for restaurant in strapi.collections.restaurants -%}
+    <li>
+      {{ restaurant.name }}
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</div>
