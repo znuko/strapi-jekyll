@@ -37,7 +37,7 @@ plugins:
 
 strapi:
   # Your API endpoint (optional, default to http://localhost:1337)
-  endpoint: https://dashboard.heroku.com
+  endpoint: https://guarded-earth-69935.herokuapp.com
   # Collections, key is used to access in the strapi.collections
   # template variable
   collections:
